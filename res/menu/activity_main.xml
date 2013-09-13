@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/ic_menu_preferences"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_author"
+        android:title="@string/menu_author"
+        android:icon="@drawable/ic_menu_info_details"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_pausestream"
+        android:title="@string/menu_pausestream"
+        android:icon="@drawable/pause"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_playstream"
+        android:title="@string/menu_playstream"
+        android:icon="@drawable/ic_menu_play_clip"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_share"
+        android:title="@string/menu_share"
+        android:icon="@drawable/ic_menu_share"
+        android:orderInCategory="100" />
+</menu>

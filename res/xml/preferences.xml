@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="preferences">
+    <ListPreference
+        android:key="pref_startingWave"
+        android:title="@string/pref_startingWaveTitle"
+        android:entries="@array/ar_wellen"
+        android:entryValues="@array/ar_wellen"
+        android:defaultValue="@string/starting_Wave" />
+    <ListPreference
+        android:key="pref_reloadTime"
+        android:title="@string/pref_reloadTimeTitle"
+        android:entries="@array/ar_reloadsText"
+        android:entryValues="@array/ar_reloadsValues"
+        android:defaultValue="@string/def_reloadTime" />
+    <CheckBoxPreference
+        android:key="pref_screenlock"
+        android:title="@string/pref_screenlockTitle"
+        android:summary="Bildschirmabschaltung verhindern"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_audio_hd"
+        android:title="@string/pref_audio_hd_title"
+        android:summary="HD Streams verwenden"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_audio_autostart"
+        android:title="@string/pref_audio_autostarttitle"
+        android:summary="Audiostream beim Appstart starten"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_audio_hold"
+        android:title="@string/pref_audio_holdtitle"
+        android:summary="Stream halten, wenn App minimiert wird"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_no_reload"
+        android:title="@string/pref_no_reloadtitle"
+        android:summary="Bilder und Texte NICHT nachladen"
+        android:defaultValue="false" />
+</PreferenceScreen>

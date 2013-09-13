@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">RadioDaten</string>
+    <string name="app_version">1.0</string>
+    <string name="loading">Text lädt nach</string>
+    <string name="image_desc">SlideShow</string>
+    <string name="starting_Wave">Bayern 1</string>
+    <string name="not_title">RadioDaten</string>
+    <string name="not_text">Audio is Playing</string>
+    <string name="def_reloadTime">3</string>
+    <string name="def_screenlock">true</string>
+    <string name="def_audio_autostart">true</string>
+    <string name="def_audio_hold">true</string>
+    <string name="def_audio_hd">true</string>
+    <string name="def_no_reload">false</string>
+     <string name="no_reload">Text Reload is OFF</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_author">Entwickler</string>
+    <string name="menu_pausestream">Pause</string>
+    <string name="menu_playstream">Play</string>
+    <string name="menu_share">Share</string>
+    <string name="title_activity_main">RadioDaten</string>
+    <string-array name="ar_wellen">
+        	<item>Bayern 1</item>
+        	<item>Bayern 2</item>
+        	<item>Bayern 3</item>
+        	<item>BR Klassik</item>
+        	<item>B5 Aktuell</item>
+        	<item>Bayern Plus</item>
+        	<item>puls</item>
+    </string-array>
+     <string-array name="ar_reloadsText">
+        	<item>1 Sekunde</item>
+        	<item>2 Sekunden</item>
+        	<item>3 Sekunden</item>
+        	<item>5 Sekunden</item>
+        	<item>10 Sekunden</item>
+        	<item>15 Sekunden</item>
+        	<item>30 Sekunden</item>
+    </string-array>
+    <string-array name="ar_reloadsValues">
+        	<item>1</item>
+        	<item>2</item>
+        	<item>3</item>
+        	<item>5</item>
+        	<item>10</item>
+        	<item>15</item>
+        	<item>30</item>
+    </string-array>
+    <string name="pref_startingWaveTitle">Start-Welle</string>
+    <string name="pref_reloadTimeTitle">Nachladeintervall</string>
+    <string name="pref_screenlockTitle">Bildschirmabschaltung</string>
+    <string name="pref_audio_autostarttitle">AutoAudio</string>
+    <string name="pref_audio_hd_title">HD Audio</string>
+    <string name="pref_audio_holdtitle">Audio Halten</string>
+    <string name="pref_no_reloadtitle">Kein Reload</string>
+	<string name="set_preferences">Einstellungen</string>
+	<string name="set_author">Entwickler</string>
+	<string name="error_text">Fehler beim Laden des Textes</string>
+</resources>
